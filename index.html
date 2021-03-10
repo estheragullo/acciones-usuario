@@ -43,6 +43,8 @@
             <li>fondo</li>
             <li>posicion</li>
             <li>imagen</li>
+            <li>bordes</li>
+            <li>color-borde</li>
           </ul>
         </div>
       </div>
@@ -67,6 +69,9 @@
           break;
         case "bordes":
           caja.style.borderRadius = "30px";
+          break;
+        case "color-borde":
+          caja.style.border = "1px solid green";
           break;
         default:
           alert(
